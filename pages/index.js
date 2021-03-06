@@ -1,12 +1,10 @@
-import Link from 'next/link'
+import Link from "next/link";
+import Test from "../src/components/Test";
 
 const Index = () => (
   <div className="container bg-primary page">
-    <h1>Hello, world!</h1>
-    <Link href="/about">
-      <a className="btn btn-light">About us</a>
-    </Link>
+    <Test />
   </div>
-)
+);
 
-export default Index
+export default Index;
